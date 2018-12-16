@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			#div01 {
+				width: 205px;
+				height: 550px;
+				background: rgba(0, 0, 0, 0.55);
+				margin: 0 auto;
+			}
+			
+			#div02 {
+				background: url("img/猫.png") no-repeat;
+				background-size: 100%;
+				height: 130px;
+			}
+			
+			#div03 {
+				height: 36px;
+				line-height: 36px;
+				background: #FF0036;
+				color: #FFF;
+				font-size: 13px;
+				font-weight: bold;
+				text-indent: 1em;
+				font-family: "Microsoft YaHei";
+			}
+			
+			li {
+				margin-left: 30px;
+				color: white;
+				font-size: 14px;
+				height: 32px;
+				line-height: 32px;
+				padding: 1px;
+			}
+			
+			#l1 {
+				list-style-image: url(img/化妆品.png);
+			}
+			
+			#l2 {
+				list-style-image: url(img/母婴玩具.png);
+			}
+			
+			#l3 {
+				list-style-image: url(img/男装.png);
+			}
+			
+			#l1:hover {
+				background: white;
+				list-style-image: url(img/化妆品1.png);
+				color: blueviolet;
+				font-weight: bold;
+			}
+			
+			#l2:hover {
+				background: white;
+				list-style-image: url(img/母婴玩具1.png);
+				color: darkmagenta;
+				font-weight: bold;
+			}
+			
+			#l3:hover {
+				background: white;
+				list-style-image: url(img/男装1.png);
+				color: hotpink;
+				font-weight: bold;
+			}
+		
+			.divl1{
+				height: 36px;
+				line-height: 36px;
+			}
+			.divl1:hover{
+				background: white;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="div01">
+			<div id="div02"></div>
+			<div id="div03"><img src="img/分类.png" />&nbsp;&nbsp;商品分类</div>
+			<div id="div04">
+				<ul>
+					<div class="divl1">
+						<li id="l1">商品分类</li>	
+					</div>
+					
+					<li id="l2">商品分类</li>
+					<li id="l3">商品分类</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>
